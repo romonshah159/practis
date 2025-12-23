@@ -1,0 +1,277 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: Arial;
+  color: white;
+}
+.head1{
+  width: 100%;
+  height: 130px;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  top: 0px;
+}
+.head1 .logo{
+  width: 20%;
+  height: 100%;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.head1 .logo img{
+  width: 200px;
+  height: auto;
+}
+.head1 .service{
+  width: 80%;
+  margin-top: 47px;
+  font-size: 19px;
+  margin-left: 25px;
+}
+.head1 .service a{
+  color: white;
+  text-decoration: none;
+  border-radius: 10%10%10%10%/50%50%50%50%;
+  padding: 5px 30px;
+  border: 2px solid white;
+  margin: 0 5px;
+}
+.section1{
+  width: 100%;
+  height: 620px;
+  margin-top: 127px;
+  background-image: url('photo-1485470733090-0aae1788d5af.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+.section1 .textarea1{
+  width: 50%;
+}
+.section1 .image1{
+  width: 50%;
+}
+.section1 .image1 .imgg{
+  width: 400px;
+  padding-top: 90px;
+  padding-right: 60px;
+  
+}
+.section1 .image1 .imgg img{
+  width: 100%;
+  height: auto;
+}
+.section1 .textarea1{
+  padding-top: 190px;
+  padding-left: 150px;
+  text-transform: uppercase;
+}
+.section1 .textarea1 h1{
+  font-size: 40px;
+  font-family: Arial,Helvetica,Sans-Serif;
+  color: rgba(255,255,255,0.782);
+  letter-spacing: 3px;
+}
+.section1 .textarea1 h2{
+  font-size: 25px;
+  color: rgba(255,255,255,0.615);
+  line-height: 50px;
+  margin-top: -10px;
+  width: 300px;
+}
+span{
+  color:rgba(48,186,243,0.79);
+}
+
+.section2{
+  width: 100%;
+  display: flex;
+  justify-content: space-betwieen;
+  color: white;
+}
+.section2 .image2{
+  width: 900px;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.section2 .image2 img{
+  width: 100%;
+  height: auto;
+}
+.section2 .textarea2{
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.section2 .textarea2 h5{
+  font-size: 20px;
+  color: rgba(255,255,255,0.687);
+}
+.section2 .textarea2 h1{
+  font-size: 30px;
+  color: rgba(255,255,255,0.887);
+  letter-spacing: 2px;
+  margin-top: -10px;
+}
+.section2 .textarea2 p{
+  font-size: 20px;
+  color: rgba(255,255,255,0.687);
+  margin-right: 20%;
+  line-height: 30px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.section2 .textarea2 a{
+  padding: 10px 35px;
+  background-color: rgba(48,186,243,0.79);
+  color: White;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5%5%5%5%/50%50%50%50%;
+}
+
+.section3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+.section3 h1{
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgba(240,240,241,0.9);
+  padding-bottom: 40px;
+}
+.section3 .boxarea1{
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+.section3 .boxarea1 .box1{
+  width: 27%;
+  height: 300px;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: 1px 1px 24px rgba(151,151,151,0.627);
+}
+.section3 .boxarea1 .box1 img{
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+  border-radius: 3%;
+}
+.section3 .boxarea1 .box1 p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgba(240,240,241,0.657);
+  width: 80%;
+  margin: 30px auto;
+}
+
+.lastSection{
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  background-color: rgba(27,72,81,0.16);
+}
+.lastSection div{
+  padding: 30px;
+  width:50% ;
+}
+.lastSection div h1{
+  color: #ffffffd8;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.lastSection .service5{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  
+}
+.lastSection .service5 a{
+  text-decoration: none;
+  color: #ffffffbf;
+  font-size: 25px;
+  line-height: 40px;
+}
+.lastSection .service5 .icons{
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+}
+.lastSection .service5 .icons a{
+  padding: 7px;
+  margin: 5px;
+  background-color: #dbd7d785;
+  color: #ffffff;
+  border-radius: 7%;
+}
+
+.lastSection .loginpage{
+  display: flex;
+  flex-direction: column;
+  
+}
+.lastSection .loginpage .login{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 20px;
+  border: solid #1b4851df 1px;
+  border-radius: 5px;
+}
+.lastSection .loginpage .login p{
+  margin: 0 auto;
+  margin-top: -15px;
+  font-size: 25px;
+}
+.lastSection .loginpage .login .input1{
+  border: 1px solid #3abedadf;
+  width: 80%;
+  padding: 0;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.lastSection .loginpage .login input{
+  border: none;
+ outline: none;
+ background: none;
+ color: White;
+ font-size: 20px;
+ width: 80%;
+ margin-left: 5%;
+}
+.lastSection .loginpage .login .email{
+  width: 100%;
+}
+.lastSection .loginpage .login .button5{
+  color: white;
+  border:rgba(48,186,243,0.79) 1px solid;
+  width: 0px;
+  padding: 8px 20px;
+  padding-right: 60px;
+  margin-left: 10%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.lastSection .loginpage .login a{
+  text-decoration: none;
+  color: white;
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  
+}
